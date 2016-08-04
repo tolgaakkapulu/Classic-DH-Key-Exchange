@@ -2,13 +2,32 @@
 // KLASİK DIFFIE HELLMAN ANAHTAR DEĞİŞİMİ
 // http://www.tolgaakkapulu.com 
 
-#include
-#include
-#include
+#include<stdio.h>
+#include<math.h>
+#include<conio.h>
 int asal (int p)
 {
 	int i, sayac=0;
-	for(i=2; i p)
+	for(i=2; i<p;i++)
+	{
+		if(p%i==0)
+		sayac++;
+	}
+	if(sayac==0)
+	{
+		printf("\n i)  'p' bir asal sayidir.");
+	}
+	
+	else
+	{
+		printf("\n i)  'p' bir asal sayi degil. Lutfen asal bir deger giriniz.\n\n");
+		return 1;
+	}
+}
+int aralarindaasal(int g, int p)
+{
+	int i, buyuk, kucuk, kontrol;
+	if(g > p)
 	{
 		printf("Lutfen 'p' 'den daha kucuk bir deger giriniz");
 	}
@@ -22,7 +41,7 @@ int asal (int p)
 		if( (buyuk % i == 0) && (kucuk % i == 0) )
 		{
 			kontrol = 1;	
-			break;	
+			break;			
 		}
 	}
 		
