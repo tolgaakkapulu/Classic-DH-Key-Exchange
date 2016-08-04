@@ -21,8 +21,8 @@ int asal (int p)
 	{
 		if( (buyuk % i == 0) && (kucuk % i == 0) )
 		{
-			kontrol = 1;	// Herhangi bir sayıyıa bölündü ile kontrol 1 olur
-			break;			// Diğer sayılara bölmeye gerek kalmadığı için döngüden çıkılır
+			kontrol = 1;	
+			break;	
 		}
 	}
 		
