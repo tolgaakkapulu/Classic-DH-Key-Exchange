@@ -1,7 +1,3 @@
-// TOLGA AKKAPULU
-// KLASİK DIFFIE HELLMAN ANAHTAR DEĞİŞİMİ
-// http://www.tolgaakkapulu.com 
-
 #include<stdio.h>
 #include<math.h>
 #include<conio.h>
