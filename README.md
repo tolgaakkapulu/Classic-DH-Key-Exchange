@@ -1,3 +1,3 @@
-# CLASSIC-DH-KEY-EXCHANGE
+# Classic DH Key Exchange
 
 It has been compiled in the C programming language and is written for the practicalization of the classical Diffie Hellman algorithm...
